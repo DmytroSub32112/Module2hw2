@@ -45,7 +45,7 @@ namespace Hw2
                 }
                 else
                 {
-                    Console.WriteLine("The order was not issued");
+                    Console.WriteLine("The order was not isued");
                 }
             }
             catch (Exception)
