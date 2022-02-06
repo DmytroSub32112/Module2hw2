@@ -10,7 +10,7 @@ namespace Hw2
             var menu = new Modul2hw2.Menucs();
             var appleMenu = menu.Catalog;
             menu.Print();
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------------------------------");
             Console.WriteLine("How many positions will you buy goods?");
             var index = Console.ReadLine();
             var result = int.TryParse(index, out var number);
